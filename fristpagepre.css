@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.heading{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(247, 202, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headinginn{
+
+color: rgb(0, 0, 0);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.heading2{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(7, 6, 6);
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+
+.headinginn2{
+align-items:center ;
+justify-content: center;
+display: flex;
+color: rgb(255, 255, 255);
+gap: 10px;
+
+}
+
+.image1{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.image1 img{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100px;
+}
+
+.temp {
+   
+background-image: url(360_F_582970551_V9zUmJdiPUCyownaKd0OWWI6ZBMoH7WH.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+width: 100%;
+height: 500px;
+
+  
+}
+.temp2{
+
+    width: 80%;
+    height: 200px;
+
+
+}
+
+
+
+.text1{
+    margin-top: 40px;
+    margin-left: 20px , 20px;
+    font-size: 100px;
+    color: rgb(170, 13, 109);      
+
+}
+
+
+.smalltext2{
+    margin-left: 200px;
+    color: rgb(170, 13, 109);     
+    font-size: 30px;
+
+  
+
+}
+
+.smalltext3{
+    margin-left: 270px;
+    color: rgb(170, 13, 109);     
+    font-size: 30px;
+}
+
+.btn button{
+margin-left: 450px;
+width: 200px;
+min-height: 50px;
+background-color: black;
+color: antiquewhite;
+border-radius: 50px;
+font-size: 20px;
+
+
+
+}
+
+.center{
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.center2{
+  
+    font-size: 40px;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+     
+    
+}
+
+.textdi{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.textpara{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+    word-wrap: break-word;
+   
+}
+
+
+
+
+    .active2 { 
+        display: grid;
+        grid-template-columns:auto auto auto auto;
+        justify-content: space-between;
+        gap: 20px;
+        top: 0px;
+        justify-content: center; 
+    }
+    
+    .active2 div{
+        width: 300px;
+        height: 350px;
+        border: 1px solid green; 
+        margin-top: 40px;
+    }
+
+    .one{
+   background-image: url(HD-wallpaper-flower-bokeh-bokeh-floswers-flower-gift-pink.jpg);
+   background-size: cover;
+
+
+    }
+
+    .one p{
+        width: 93%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 104%;
+        background-color:rgb(42, 42, 42);
+    }
+
+
+    .two p{
+        width: 93%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 104%;
+        background-color:rgb(42, 42, 42);
+    }
+
+    .three p{
+        width: 93%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 104%;
+        background-color:rgb(42, 42, 42);
+    }
+
+    .four p{
+        width: 93%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 104%;
+        background-color:rgb(42, 42, 42);
+    }
+
+
+
+    .five p{
+        width: 93%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 104%;
+        background-color:rgb(42, 42, 42);
+    }
+
+
+    .six p{
+        width: 93%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 104%;
+        background-color:rgb(42, 42, 42);
+    }
+
+
+    .seven p{
+        width: 93%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 104%;
+        background-color:rgb(42, 42, 42);
+    }
+
+
+    .eight p{
+        width: 93%;
+        padding: 10px;
+        text-align: center;
+        margin-top: 104%;
+        background-color:rgb(42, 42, 42);
+    }
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+    .two{
+background-image: url(IMG_20220830_115952_738.jpg);
+background-size: cover;
+
+    }
+
+    
+    .three{
+
+        background-image: url(Wrapped-DC-2.png.webp);
+        background-size: cover;
+    
+            }
+
+            
+    
+    .four{
+
+        background-image: url(360_F_582970551_V9zUmJdiPUCyownaKd0OWWI6ZBMoH7WH.jpg);
+        background-size: cover;
+        
+            }
+            
+    
+    .five{
+
+        background-image: url(CherryFlowerBouquet.webp);
+        background-size: cover;
+
+            }
+            
+    
+    .six{
+
+        background-image: url(depositphotos_80971862-stock-photo-bouquet-from-cultivated-flowers.jpg);
+        background-size: cover;
+
+            }
+
+            .seven{
+
+                background-image: url(images.jpg);
+                background-size: cover;
+        
+                    }
+        
+                    .eight{
+
+                        background-image: url(images\ \(1\).jpg);
+                        background-size: cover;
+                
+                            }
+                
+                    .twelve{
+                        background-image: url(images\ \(3\).jpg);
+                        background-size: cover;
+
+                    }
+
+
+                                  
+.footer1{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+  
+
+
+}
+.footer2{
+    background-image: url(depositphotos_80971862-stock-photo-bouquet-from-cultivated-flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 40%;
+    height: 600px;
+ 
+
+}
+.footer3{
+    /* display: flex; */
+    background-color: rgb(73, 71, 75);
+    width: 40%;
+    height: 600px;
+  
+
+}
+     
+
+
+/* 
+.fmain{
+  
+    width : 90%;
+    height: 600vh;
+    margin: 20px;
+} */
+.t2{
+color: aliceblue;
+    /* margin-left: 20px; */
+font-size: 30px;
+/* font-weight: bolder; */
+font-family: 'Times New Roman', Times, serif;
+}
+.t3{color: aliceblue;
+    font-size: 40px;  
+/* font-weight: bolder;  margin-left: 20px; */
+}
+
+.t4{ 
+    /* margin-left: 20px; */
+    font-size: 15px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.t5{
+    font-size: 15px;
+    color: aliceblue;
+    /* margin-left: 20px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.t6{
+    font-size: 15px;
+    /* margin-left: 20px; */
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.fmain{
+
+    width : 90%;
+    margin-left: 20px;
+    height: 400px;
+
+}
+
+
+.button3 button{
+
+ margin-left: 20px;
+ height: 40px;
+ background-color: rgb(249, 245, 245);
+ width: 200px;
+ border:2px solid white;
+
+
+}
+
+
+.footerlastflex{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+   
+
+
+
+}
+
+.footerh1{
+    margin-top: 20px;
+    font-size: 40px;
+    display: flex;
+    width: 100%;
+   color: rgb(43, 42, 42);
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+
+.footerh2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(38, 38, 38);
+    /* display: flex; */
+    width: 60%;
+    height: 10vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    /* justify-content: center; */
+    
+
+}
+
+
+
+.button4 button {
+width: 20%;
+height: 6vh;
+color: black;
+border: 2px solid black;
+font-size: 20px;
+}
+
+
+.insta a 
+{
+    text-decoration: underline;
+    color: black;
+  
+}
+
+
+
+
+
+
