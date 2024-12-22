@@ -1,5 +1,5 @@
 * {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   margin: 0;
   padding: 0;
 }
@@ -112,12 +112,10 @@ button a {
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   font-weight: bolder;
   font-size: 20px;
-
 }
 
 .right2 {
   margin-top: 100px;
-
 }
 
 .username input {
@@ -126,7 +124,6 @@ button a {
   border-radius: 50px;
   border: 3px solid rgb(138, 24, 148);
   color: rgb(103, 5, 57);
-
 }
 
 .password input {
@@ -135,22 +132,18 @@ button a {
   border-radius: 50px;
   border: 3px solid rgb(138, 24, 148);
   color: rgb(103, 5, 57);
-
 }
 
 .password {
   color: rgb(103, 5, 57);
-
 }
 
 .username {
   color: rgb(103, 5, 57);
-
 }
 
 .small {
   font-size: 15px;
-
 }
 
 .right button {
@@ -158,17 +151,14 @@ button a {
   height: 30px;
   color: rgb(242, 215, 238);
   background-color: rgb(151, 38, 128);
-
 }
 
 .checkbox {
   color: rgb(103, 5, 57);
-
 }
 
 .checkbox input {
   border: 3px solid rgb(138, 24, 148);
-
 }
 
 .username input {
@@ -177,37 +167,32 @@ button a {
   border-radius: 50px;
   border: 3px solid rgb(138, 24, 148);
   color: rgb(103, 5, 57);
-
 }
-
+/* 
 .items {
   margin-top: 50px;
   display: flex;
   /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-  justify-content: space-evenly;
+  /* justify-content: space-evenly;
   gap: 5px;
   width: 100%;
-  height: 400px;
+  height: 400px; */
   /* border: 3px solid black; */
 
-}
-
+/* 
 .items .f1 {
   width: 300px;
   width: 290px;
   margin-left: 5px;
   background-image: url(depositphotos_80971862-stock-photo-bouquet-from-cultivated-flowers.jpg);
   background-size: cover;
+} */
 
-}
-
-
-.items .f2 {
+/* .items .f2 {
   background-image: url(o0AAAfIgQCgLvWHemYLS9NIhAeHikrHBGErbA8~tplv-tej9nj120t-origin.webp);
   width: 290px;
   background-size: cover;
   height: 400px;
-
 }
 
 .items .f3 {
@@ -215,15 +200,13 @@ button a {
   background-size: cover;
   width: 290px;
   height: 400px;
-
-}
-
+} */
+/* 
 .items .f4 {
   background-size: cover;
   background-image: url(CherryFlowerBouquet.webp);
   width: 290px;
   height: 400px;
-
 }
 
 .items .f5 {
@@ -231,36 +214,21 @@ button a {
   background-image: url(pink-background-with-flowers-pink-background_1213494-345.avif);
   width: 290px;
   height: 400px;
-
 }
 
-.ani1{
+.ani1 {
   height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.ani1 div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+/* .ani1 div {
   width: 100%;
   height: 600px;
   border: 2px solid greenyellow;
   animation: bgchange 5s ease infinite;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} */ 
 
 
 /* @keyframes bgchange{
@@ -314,6 +282,64 @@ align-items: center;
 
 } */
 /* } */
+
+
+
+@media (max-width: 768px) {
+  
+  .first {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+  }
+
+
+
+
+
+  .left {
+    
+    display: none;
+   height: 0px;
+   width: 0px;
+    background-image: url();
+    /* width: 40%; */
+    /* border: 2px solid rgb(196, 50, 74); */
+
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+  .right {
+    background-color: rgb(211, 174, 212);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid rgb(244, 49, 81); */
+}
+
+
+
+
+
+}
+
+
+
+
 
 
 

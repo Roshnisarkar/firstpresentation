@@ -1,4 +1,5 @@
 *{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
@@ -111,6 +112,7 @@ background-color: black;
 color: antiquewhite;
 border-radius: 50px;
 font-size: 20px;
+cursor: pointer;
 
 
 
@@ -355,7 +357,15 @@ background-size: cover;
 
 }
      
-
+.button3 button {
+    margin-left: 19px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(249, 245, 245);
+    width: 200px;
+    border: 2px solid white;
+    margin-top: 20px;
+}
 
 /* 
 .fmain{
@@ -406,7 +416,7 @@ font-family: 'Times New Roman', Times, serif;
 
 }
 
-
+/* 
 .button3 button{
 
  margin-left: 20px;
@@ -416,7 +426,7 @@ font-family: 'Times New Roman', Times, serif;
  border:2px solid white;
 
 
-}
+} */
 
 
 .footerlastflex{
@@ -470,6 +480,7 @@ height: 6vh;
 color: black;
 border: 2px solid black;
 font-size: 20px;
+cursor: pointer;
 }
 
 
@@ -617,20 +628,11 @@ color: aliceblue;
 }
 
 
-
-
-
-
-
-
-
-
 .footer1 {
     /* justify-content: center; */
     /* align-items: center; */
     display: flex;
     /* height: 40vh; */
-   
     flex-direction: column;
 }
 
@@ -744,12 +746,13 @@ height: 400px;
 
 
 .button3 button {
-    margin-left: 20px;
+    margin-left: 5px;
+    cursor: pointer;
     height: 40px;
     background-color: rgb(249, 245, 245);
     width: 200px;
     border: 2px solid white;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 
@@ -797,6 +800,7 @@ height: 400px;
 .button4 button {
     width: 70%;
     height: 6vh;
+    cursor: pointer;
     color: black;
     border: 2px solid black;
     font-size: 17px;
