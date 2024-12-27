@@ -710,3 +710,78 @@ a {
     font-size: 20px;
   }
 }
+
+
+
+.btn a button{
+  color: rgb(215, 199, 204);
+  font-size: larger;
+    border: 2px solid rgb(105, 10, 59);
+    animation: bgchange 5s ease infinite;
+  } 
+  
+  
+   @keyframes bgchange{
+    0%{
+      background-color: rgb(33, 93, 146);
+    }
+  
+    25%{
+      background-color: rgb(208, 52, 99);
+    }
+  
+    35%{
+      background-color: rgb(189, 98, 28);
+  
+    }
+  
+    50%{
+      background-color: rgb(228, 83, 173);
+  
+    }
+    75%{ 
+      background-color: rgb(186, 37, 109);
+  
+  }
+  100%{
+    background-color: rgb(141, 0, 33);
+  
+  }
+  } 
+
+   /* a button{
+    color: rgb(215, 199, 204);
+    font-size: larger;
+      border: 2px solid rgb(105, 10, 59);
+      animation: bgchange 5s ease infinite;
+    } 
+    
+    
+     @keyframes bgchange{
+      0%{
+        background-color: rgb(67, 147, 217);
+      }
+    
+      25%{
+        background-color: rgb(208, 52, 99);
+      }
+    
+      35%{
+        background-color: rgb(90, 28, 189);
+    
+      }
+    
+      50%{
+        background-color: rgb(228, 83, 173);
+    
+      }
+      75%{ 
+        background-color: rgb(186, 37, 109);
+    
+    }
+    100%{
+      background-color: rgb(141, 0, 33);
+    
+    }
+    } 
+ */
